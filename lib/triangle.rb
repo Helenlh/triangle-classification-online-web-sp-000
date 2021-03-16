@@ -8,7 +8,9 @@ class Triangle
     @c = c
   end 
   
+  
   def kind 
+    
     case  
  
     when a == b && b == c && a == c 
