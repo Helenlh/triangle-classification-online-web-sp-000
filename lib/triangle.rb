@@ -10,7 +10,7 @@ class Triangle
   
   
   def kind 
-    
+     raise TriangleError if !side 
     case  
  
     when a == b && b == c && a == c 
