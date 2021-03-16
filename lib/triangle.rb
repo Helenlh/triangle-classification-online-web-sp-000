@@ -32,12 +32,10 @@ end
     #puts error.message 
     end
   end 
+
+class TriangleError < StandardError 
+  end 
 end 
 end 
 
-class TriangleError < StandardError 
-  def message 
-    "all sides of triangle must be >= 0 and there must be three sides" 
-  end 
-end 
   
