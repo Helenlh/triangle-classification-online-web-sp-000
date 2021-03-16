@@ -10,9 +10,9 @@ class Triangle
   
   
   def kind 
-     #raise TriangleError if !side 
+    validate_triangle
+    
     case  
- 
     when a == b && b == c && a == c 
      :equilateral 
      when a == b || b == c || a == c
